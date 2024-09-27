@@ -53,6 +53,7 @@ Carte réseau sans fil Wi-Fi :
 ```powershell
 PS C:\Users\jawad> ipconfig
 Carte réseau sans fil Wi-Fi :
+
    Serveur DHCP . . . . . . . . . . . . . : 10.33.79.254
 ```
 
@@ -196,4 +197,21 @@ Addresses:  2620:7:6002:0:466:39ff:fe32:e3dd
           204.8.99.144
           204.8.99.146
           116.202.120.165
+```
+
+## III. Sniffer le réseau
+
+*Travail fait sur WireShark*
+
+## IV. Network scanning et adresses IP
+
+```powershell
+PS C:\Users\jawad> ipconfig
+Carte réseau sans fil Wi-Fi :
+
+   Suffixe DNS propre à la connexion. . . :
+   Adresse IPv6 de liaison locale. . . . .: fe80::949:b672:5dcb:8bd7%11
+   Adresse IPv4. . . . . . . . . . . . . .: 10.33.78.245
+   Masque de sous-réseau. . . . . . . . . : 255.255.255.0
+   Passerelle par défaut. . . . . . . . . :
 ```
